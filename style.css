@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.navigation-bar {
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+}
