@@ -9,9 +9,13 @@ a {
     color: #E5E7EB;
 }
 
-.header {
+.header,
+.hero-section {
     background-color: #1F2937;
     padding: 24px 48px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +23,6 @@ a {
 
 .header-logo-text {
     font-size: 24px;
-    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
@@ -27,4 +30,36 @@ a {
     font-size: 18px;
     display: flex;
     gap: 40px;
+}
+
+.hero-section {
+    display: flex;
+    padding: 80px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#hero-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+#hero-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    width: max-content;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
 }
