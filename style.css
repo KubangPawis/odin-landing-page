@@ -44,9 +44,9 @@ button {
 
 .hero-section {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     padding: 80px;
-    gap: 80px;
 }
 
 .hero-text {
@@ -54,6 +54,8 @@ button {
     flex-direction: column;
     gap: 24px;
     margin-left: 72px;
+    width: 720px;
+    line-height: 1.6;
 }
 
 #hero-title {
