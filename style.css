@@ -17,61 +17,72 @@ a {
 
 button {
     font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    padding: 2em;
+}
+
+img {
+    max-width: 100%;
 }
 
 .header,
 .hero-section {
     background-color: #1F2937;
-    padding: 24px 48px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20%;
+    padding: 1.5rem 3rem;
 }
 
 .header-logo-text {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #F9FAF8;
 }
 
 .navigation-bar {
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
 }
 
 .hero-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 80px;
+    padding: 5rem;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    margin-left: 72px;
-    width: 720px;
+    max-width: 50%;
     line-height: 1.6;
+    gap: 1.5rem;
 }
 
 #hero-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 
 #hero-description {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #E5E7EB;
 }
 
+.hero-image-container {
+    margin: 2rem;
+}
+
 .hero-image {
-    height: 720px;
-    width: 1080px;
+    height: auto;
 }
 
 .hero-button {
@@ -79,41 +90,52 @@ button {
     font-weight: bold;
     color: #F9FAF8;
     width: max-content;
-    padding: 8px 24px;
+    padding: 0.75em 1.5em;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .features-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 180px 48px;
+    padding: 10rem 4rem;
 }
 
 #features-title {
-    font-size: 48px;
-    margin: 0 0 72px;
+    font-size: 3rem;
+    margin: 0 0 1.5em;
 }
 
 .features-card-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 72px;
+    gap: 4.5rem;
 }
 
 .features-card {
-    width: 420px;
-    font-size: 14px;
+    max-width: 26.25rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
     color: #1F1F1F;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 
-#features-card-description {
+.features-card-image-container {
+    flex: 2 1 0;
+}
+
+.features-card-text {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.features-card-description {
     color: #2E2E2E;
 }
