@@ -44,13 +44,16 @@ button {
 
 .hero-section {
     display: flex;
+    align-items: center;
     padding: 80px;
+    gap: 80px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-left: 72px;
 }
 
 #hero-title {
@@ -62,6 +65,11 @@ button {
 #hero-description {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-image {
+    height: 720px;
+    width: 1080px;
 }
 
 .hero-button {
