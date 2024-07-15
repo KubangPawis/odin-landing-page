@@ -120,7 +120,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 4.5rem;
+    gap: 2rem;
 }
 
 .features-card {
